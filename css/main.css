@@ -1,0 +1,41 @@
+html {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+
+  display: block;
+  padding: .5em;
+  font-family: sans-serif;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #713837;
+  background-color: #713837;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+a:hover {
+  background-color: #f33;
+}
