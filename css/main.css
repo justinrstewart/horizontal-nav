@@ -9,6 +9,7 @@ h1 {
   font-size: 2rem;
   color: #fff;
   margin: 0;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -21,21 +22,39 @@ body {
 
 a {
 
-  display: block;
+  display: inline-block;
   padding: .5em;
   font-family: sans-serif;
   border-radius: 5px;
-  text-decoration: none;
   color: #fff;
   border: 1px solid #713837;
   background-color: #713837;
 }
 
+ul > li {
+  display: inline-block;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-align: center;
+}
+
 ul {
   padding-left: 0;
   margin: 0;
+  text-align: center;
 }
 
 a:hover {
   background-color: #f33;
+  border-color: #f33;
+  border-radius: .3em;
+}
+
+.box {
+  background-color: #79756f;
+  border-top: 3px;
+  border-bottom: 3px;
+  border-style: solid;
+  border-color: #595652;
+  padding: .75em;
 }
